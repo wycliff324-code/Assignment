@@ -13,9 +13,9 @@ double income;
 printf("Enter ur age: ");
 scanf("%d",&age);
 printf("Enter annual income:");
-scanf("%1f",& income);
+scanf("%lf",& income);
 
-if(age>= 21& income >= 21000){
+if(age>= 21&& income >= 21000){
 printf("congratulations you qualify for loan.\n");
 }else{
 printf("unfortunately, we are unable to offer you loan at this time.\n");}
